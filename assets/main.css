@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.app-txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc(100% / 3);
+  height: 300px;
+  border: 2px solid black;
+  background-color: #da8989;
+  color: #294a30;
+}
+
+.app-txt h1{
+  margin: 30px 0;
+}
+
+
+.app-txt h3{
+  padding: 20px;
+  margin-top: 30px;
+  border: 2px solid;
+}
